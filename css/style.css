@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root {
+    --gmail-primary: #fcb401FF;
+    --gmail-dark: #000000;
+    --gmail-light: #ffffff;
+}
+ /* determinati reset e radici*/
+
+#header1 {
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+}
+
+.debug header {
+    background-color: red;
+    height: 200px;
+}
+
+.debug main {
+    background-color: blue;
+    height: 400px;
+}
+
+.debug footer {
+    background-color: red;
+    height: 200px;
+}
+
+body {
+    background-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg');
+    width: 800px;
+    margin: auto;
+}
+
+.logo-text {
+    font-size: 2rem;
+    color: var(--gmail-light)
+}
+
+.logo-img {
+    vertical-align: middle;
+}
+
+.search-box {
+    padding: 1rem 1rem 1rem 0;
+}
+
+button {
+    text-transform: uppercase;
+}
+
+h2 {
+    color: var(--gmail-light);
+}
+
+.circle {
+    background-color: orange;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+main {
+    border-bottom: 1px solid var(--gmail-light);
+    padding-bottom: 1rem;
+}
+
+.header2  {
+    border-top: 1px solid white;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid var(--gmail-light);
+}
+
+
+
+.tr1 {
+    background-color: rgb(202, 202, 202);
+    border: 1px 1px 1px 1px;
+    border-color: var(--gmail-dark);
+
+}
+
+.tr2 {
+    background-color: rgb(241, 241, 241);
+    border: 1px 1px 1px 1px;
+    border-color: var(--gmail-dark);
+}
+
+
+.td1 {   
+    width: fit-content;
+    padding: 1px 6px 1px 6px;
+}
+
+.td2 {
+    width: fit-content;
+    color: var(--gmail-dark);
+    font-size: medium;
+    font-weight: 900;
+    padding: 1px 6px 1px 6px;
+
+}
+
+.td3 {
+    width: fit-content;
+    color: rgb(153, 153, 153);
+    font-size:medium ;
+    font-weight: 800;
+    padding: 1px 6px 1px 6px;
+}
+
+.td4 {
+        width: max-content;
+        padding: 1px 6px 1px 29rem;
+    }
+
+.footerp {
+    text-align: center;
+}
+
+.p1 {
+    color: var(--gmail-light);
+    font-size: x-large;
+    font-weight: 900;
+    display: inline-block;
+
+}
+
+.p2 {
+    color: var(--gmail-light);
+    font-size: medium;
+    font-style: italic;
+    font-weight: 700;
+    display: inline-block;
+
+}
